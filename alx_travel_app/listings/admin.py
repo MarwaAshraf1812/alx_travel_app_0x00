@@ -1,5 +1,5 @@
 from django.contrib import admin
-from alx_travel_app.listings.models import Listing, Booking, Review
+from listings.models import Listing, Booking, Review
 
 
 @admin.register(Listing)
